@@ -1,5 +1,4 @@
 import pytest
-import allure
 from utils.api_client import ApiClient
 from tests.data import generate_user_data
 

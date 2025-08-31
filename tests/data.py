@@ -1,4 +1,3 @@
-
 import random
 import string
 
@@ -24,3 +23,10 @@ def invalid_user_data():
         "email": "invalid@user.com",
         "password": "short"
     }
+
+def invalid_login_data():
+    return {
+        "email": "invalid@example.com",
+        "password": "wrongpassword"
+    }
+
